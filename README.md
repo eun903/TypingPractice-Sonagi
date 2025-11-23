@@ -89,20 +89,21 @@ TypingPractice-Sonagi/
 ### 2️⃣ 프로젝트 다운로드
 ```bash
 git clone https://github.com/eun903/TypingPractice-Sonagi.git
+```
 
-3️⃣ IDE에서 실행
+### 3️⃣ IDE에서 실행
 
 Eclipse 또는 IntelliJ에서
 → Main.java 실행
 
-4️⃣ 터미널에서 실행
+### 4️⃣ 터미널에서 실행
 cd TypingPractice-Sonagi
 javac -encoding UTF-8 -d bin src/taja/*.java
 java -cp bin taja.Main
 
 
-📌 주요 클래스 설명
-▶️ Gui.java
+## 📌 주요 클래스 설명
+### ▶️ Gui.java
 
 전체 GUI 구성
 
@@ -112,7 +113,7 @@ java -cp bin taja.Main
 
 입력 이벤트 처리
 
-▶️ Rain.java
+### ▶️ Rain.java
 
 단어 떨어짐을 담당하는 Thread
 
@@ -120,7 +121,7 @@ java -cp bin taja.Main
 
 생명 감소 및 Game Over 처리
 
-▶️ WordData.java
+### ▶️ WordData.java
 
 word.txt 파일 읽기
 
@@ -128,19 +129,19 @@ word.txt 파일 읽기
 
 랜덤 셔플
 
-▶️ totalPlayTime.java
+### ▶️ totalPlayTime.java
 
 게임 시간 측정 스레드
 
 종료 시 누적 시간 출력
 
-▶️ Word.java
+### ▶️ Word.java
 
 단어 오브젝트
 
 단어 문자열 및 위치 정보 관리
 
-▶️ Main.java
+###▶️ Main.java
 
 프로그램 실행 시작점
 
