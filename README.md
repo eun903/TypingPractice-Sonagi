@@ -24,6 +24,12 @@
 
 ---
 
+## 🖼 시연 GIF / 이미지
+![서비스 시연 GIF](./assets/demo.gif)  
+*사용자가 리뷰를 입력하면 광고성 여부를 자동 분석, 시각화, 요약까지 제공*
+
+---
+
 ## ✨ 주요 기능
 
 ### 🕹️ 1. 단어 떨어짐(소나기 연출)
@@ -51,7 +57,7 @@
 ---
 
 ## 🗂️ 프로젝트 구조
-
+```bash
 TypingPractice-Sonagi/
 ├─ src/
 │ └─ taja/
@@ -77,7 +83,7 @@ TypingPractice-Sonagi/
 ├─ word.txt
 ├─ README.md
 └─ ...
-
+```
 ---
 
 ## 🚀 실행 방법
