@@ -96,11 +96,6 @@ git clone https://github.com/eun903/TypingPractice-Sonagi.git
 Eclipse 또는 IntelliJ에서
 → Main.java 실행
 
-### 4️⃣ 터미널에서 실행
-cd TypingPractice-Sonagi
-javac -encoding UTF-8 -d bin src/taja/*.java
-java -cp bin taja.Main
-
 
 ## 📌 주요 클래스 설명
 ### ▶️ Gui.java
